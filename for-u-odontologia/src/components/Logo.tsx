@@ -21,7 +21,7 @@ export const Logo: React.FC<LogoProps> = ({
   return (
     <div className={`inline-flex items-center justify-center select-none ${className}`}>
       <img
-        src="/images/logo-foru.png"
+        src="/images/logo%20for%20u.png"
         alt={clinicConfig.name}
         className={`w-auto object-contain transition-transform duration-300 ${sizeClasses[size]}`}
         referrerPolicy="no-referrer"
