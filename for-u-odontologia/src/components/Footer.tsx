@@ -14,7 +14,7 @@ export const Footer: React.FC = () => {
             {clinicConfig.name}
           </h2>
           <p className="text-xs text-[#746861] tracking-widest uppercase font-medium">
-            Excelência & Care
+            Excelência & cuidados
           </p>
         </div>
 
