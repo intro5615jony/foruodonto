@@ -1,5 +1,5 @@
 /**
- * Configuração central da clínica For U - Clinica Especializada
+ * Configuração central da odontologia For U - odontologia Especializada
  * Altere aqui os dados de contato, redes sociais, horários e mensagens.
  */
 
@@ -24,7 +24,7 @@ export interface ClinicConfig {
 }
 
 export const clinicConfig: ClinicConfig = {
-  name: "For U - Clinica Especializada",
+  name: "For U - Odontologia Especializada",
   tagline: "Sua experiência em saúde bucal e estética com exclusividade",
   phoneDisplay: "(11) 99349-8545",
   phone: "5511993498545",
@@ -32,7 +32,7 @@ export const clinicConfig: ClinicConfig = {
   instagram: "https://www.instagram.com/foruodontologia/",
   instagramUser: "@foruodontologia",
   domain: "https://foruodontologia.com.br",
-  whatsappMessage: "Olá! Vim pelo site da For U - Clinica Especializada e gostaria de mais informações.",
+  whatsappMessage: "Olá! Vim pelo site da For U - Odontologia Especializada e gostaria de mais informações.",
   hours: {
     segundaAQuinta: "8h às 18h",
     sexta: "8h às 17h",
