@@ -39,7 +39,7 @@ export const Hero: React.FC = () => {
 
             {/* Complementary Text */}
             <p className="text-base sm:text-lg md:text-xl text-[#746861] font-normal leading-relaxed max-w-2xl">
-              Enquanto a experiência digital For U - Clinica Especializada não chega, nossa equipe continua à disposição para{' '}
+              Enquanto o novo site da For U Odontologia Especializada está sendo carinhosamente criado, nossa equipe continua à disposição para{' '}
               <strong className="text-[#A86E35] font-semibold border-b border-[#E6C89B]/70 pb-0.5">
                 cuidar de você e do seu sorriso
               </strong>.
