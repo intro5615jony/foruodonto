@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-sans: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  --color-foru-gold: #C58A45;
+  --color-foru-bronze: #A86E35;
+  --color-foru-bronze-dark: #815124;
+  --color-foru-champagne: #E6C89B;
+  --color-foru-brown: #49382F;
+  --color-foru-gray: #746861;
+  --color-foru-offwhite: #FAF7F3;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* Custom ambient gradient animation and luxury subtle metallic shimmer */
+@keyframes ambientGlow {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scale(1) translate(0px, 0px);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.08) translate(10px, -10px);
+  }
+}
+
+.animate-ambient-glow {
+  animation: ambientGlow 12s ease-in-out infinite;
+}
+
+@keyframes goldShimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.bg-gold-metallic {
+  background: linear-gradient(135deg, #A86E35 0%, #C58A45 35%, #E6C89B 50%, #C58A45 65%, #A86E35 100%);
+  background-size: 200% auto;
+}
+
+.bg-gold-button {
+  background: linear-gradient(135deg, #A86E35 0%, #C58A45 50%, #D8A562 100%);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.bg-gold-button:hover {
+  background: linear-gradient(135deg, #815124 0%, #A86E35 50%, #C58A45 100%);
+  box-shadow: 0 10px 25px -5px rgba(168, 110, 53, 0.28), 0 8px 10px -6px rgba(168, 110, 53, 0.1);
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #865223 0%, #A86E35 30%, #C58A45 60%, #865223 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+

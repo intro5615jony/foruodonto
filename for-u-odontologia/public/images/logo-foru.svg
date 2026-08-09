@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#865223" />
+      <stop offset="25%" stop-color="#A86E35" />
+      <stop offset="50%" stop-color="#C58A45" />
+      <stop offset="75%" stop-color="#E6C89B" />
+      <stop offset="100%" stop-color="#A86E35" />
+    </linearGradient>
+    <filter id="subtleGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="1.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Main "For" calligraphic text representation -->
+  <g fill="url(#goldGrad)" filter="url(#subtleGlow)">
+    <!-- F letter with sweeping crossbar -->
+    <path d="M 120 70 C 135 60, 180 50, 230 65 C 240 68, 230 80, 210 78 C 175 75, 140 82, 132 98 L 105 240 C 102 258, 120 252, 128 248 L 122 262 C 105 272, 85 275, 80 255 L 110 95 C 90 100, 75 105, 68 98 C 65 92, 80 82, 120 70 Z" />
+    <path d="M 85 180 C 120 160, 180 150, 220 165 C 225 167, 220 178, 205 178 C 160 178, 115 188, 85 180 Z" />
+
+    <!-- o letter -->
+    <path d="M 235 150 C 255 130, 280 140, 280 175 C 280 210, 245 220, 230 195 C 220 175, 225 158, 235 150 Z M 245 162 C 240 172, 242 195, 255 195 C 265 195, 268 175, 260 162 C 252 155, 248 155, 245 162 Z" />
+
+    <!-- r letter -->
+    <path d="M 290 150 L 305 145 C 315 140, 335 135, 345 155 C 352 168, 360 150, 380 150 C 390 150, 385 160, 370 162 C 345 165, 330 200, 318 245 L 302 245 L 320 175 C 310 165, 298 165, 290 175 Z" />
+
+    <!-- Signature crescent brush stroke arc beneath "or" -->
+    <path d="M 180 185 C 165 240, 210 300, 330 295 C 380 290, 420 255, 435 220 C 440 208, 448 215, 442 225 C 418 275, 365 315, 305 310 C 200 305, 145 245, 168 180 Z" />
+    <path d="M 400 170 C 420 165, 450 160, 470 175 C 475 180, 465 185, 455 182 C 435 178, 415 180, 400 170 Z" />
+  </g>
+</svg>
