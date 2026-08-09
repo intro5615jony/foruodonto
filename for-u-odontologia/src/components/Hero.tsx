@@ -55,7 +55,7 @@ export const Hero: React.FC = () => {
                 aria-label="Falar com a gente no WhatsApp"
               >
                 <MessageCircle className="w-5 h-5 sm:w-6 sm:h-6 text-white group-hover:scale-110 transition-transform duration-300" />
-                <span>Falar com a gente!</span>
+                <span>Fale com a gente!</span>
               </a>
 
               {/* Discrete subtext below button */}
