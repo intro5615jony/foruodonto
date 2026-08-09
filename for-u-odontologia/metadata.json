@@ -1,6 +1,6 @@
 {
-  "name": "For U - Clinica Especializada",
-  "description": "Página temporária elegante e responsiva para a clínica For U - Clinica Especializada.",
+  "name": "For U - Odontologia Especializada",
+  "description": "Página temporária elegante e responsiva para a clínica For U - Odontologia Especializada.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
