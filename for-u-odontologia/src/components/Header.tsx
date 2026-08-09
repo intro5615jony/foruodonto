@@ -24,7 +24,7 @@ export const Header: React.FC = () => {
           className="group inline-flex items-center gap-1.5 sm:gap-2.5 px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-full border border-[#E6C89B]/50 bg-[#FAF7F3]/70 hover:bg-[#FAF7F3] hover:border-[#C58A45] transition-all duration-300 text-[11px] sm:text-xs md:text-sm text-[#49382F] shrink-0"
         >
           <span className="text-[#746861] group-hover:text-[#49382F] font-light transition-colors whitespace-nowrap hidden min-[380px]:inline">
-            Acompanhe a For U - Odontologia Especializada
+            Acompanhe a For U nas redes sociais
           </span>
           <span className="w-px h-3 bg-[#E6C89B]/60 hidden min-[380px]:inline" aria-hidden="true" />
           <Instagram className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#A86E35] group-hover:scale-110 transition-transform duration-300 shrink-0" />
